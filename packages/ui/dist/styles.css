@@ -648,6 +648,17 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-to: rgb(99 102 241 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-purple-500 {
+  --tw-gradient-to: rgb(168 85 247 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to);
+}
+
 .to-brandblue {
   --tw-gradient-to: #3b82f6;
 }
@@ -662,6 +673,10 @@ video {
 
 .to-black {
   --tw-gradient-to: #000;
+}
+
+.to-pink-500 {
+  --tw-gradient-to: #ec4899;
 }
 
 .bg-clip-text {
