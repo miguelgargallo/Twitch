@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Menu } from "ui";
-import { Footer } from "ui";
 
 export default function Home() {
   return (
@@ -85,8 +84,34 @@ export default function Home() {
             </a>
           </button>
         </div>
+        <div className="flex columns-2 text-white">
+          <div className="m-2 py-8 px-8">
+            <a href="https://www.linkedin.com/in/miguelgargallo/" target={"_blank"} rel="noreferrer">
+              Linkedin
+            </a>
+          </div>
+          <div className="m-2 py-8 px-8">
+            <a href="https://www.twitter.com/miguelgargallo/" target={"_blank"} rel="noreferrer">
+              Twitter
+            </a>
+          </div>
+          <div className="m-2 py-8 px-8">
+            <a href="https://www.instagram.com/miguelgargallo.es/" target={"_blank"} rel="noreferrer">
+              Instagram
+            </a>
+          </div>
+          <div className="m-2 py-8 px-8">
+            <a href="https://www.twitch.tv/miguelgargallo/" target={"_blank"} rel="noreferrer">
+              Twitch
+            </a>
+          </div>
+          <div className="m-2 py-8 px-8">
+            <a>
+              2022 All rights reserved. Miguel Gargallo
+            </a>
+          </div>
+        </div>
       </main>
-      <Footer />
     </div>
   );
 }
