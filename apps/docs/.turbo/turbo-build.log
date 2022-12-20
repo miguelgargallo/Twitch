@@ -1,24 +1,16 @@
 yarn run v1.22.17
 $ next build
 info  - Linting and checking validity of types...
-info  - Creating an optimized production build...
-info  - Compiled successfully
-info  - Collecting page data...
-info  - Generating static pages (0/3)
-info  - Generating static pages (3/3)
-info  - Finalizing page optimization...
+Failed to compile.
 
-Route (pages)                              Size     First Load JS
-┌ ○ / (335 ms)                             50.8 kB         124 kB
-├   /_app                                  0 B            73.2 kB
-└ ○ /404                                   181 B          73.4 kB
-+ First Load JS shared by all              76.7 kB
-  ├ chunks/framework-aedff47d294e0670.js   45.4 kB
-  ├ chunks/main-b8adf948f7f01545.js        26.7 kB
-  ├ chunks/pages/_app-8198e3d352f586ca.js  309 B
-  ├ chunks/webpack-ee7e63bc15b31913.js     815 B
-  └ css/706dabab55708591.css               3.52 kB
+./src/pages/index.tsx:2:10
+Type error: Module '"ui"' has no exported member 'Button'.
 
-○  (Static)  automatically rendered as static HTML (uses no initial props)
-
-Done in 27.29s.
+[0m [90m 1 | [39m[36mimport[39m [33mHead[39m [36mfrom[39m [32m"next/head"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 | [39m[36mimport[39m { [33mButton[39m } [36mfrom[39m [32m"ui"[39m[33m;[39m[0m
+[0m [90m   | [39m         [31m[1m^[22m[39m[0m
+[0m [90m 3 | [39m[0m
+[0m [90m 4 | [39m[36mexport[39m [36mdefault[39m [36mfunction[39m [33mHome[39m() {[0m
+[0m [90m 5 | [39m  [36mreturn[39m ([0m
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
