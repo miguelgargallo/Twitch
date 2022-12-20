@@ -20,7 +20,8 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Button: () => Button
+  Button: () => Button,
+  Menu: () => Menu
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -44,7 +45,26 @@ var Button = () => {
     })
   });
 };
+
+// src/Menu.tsx
+var import_jsx_runtime2 = require("react/jsx-runtime");
+var Menu = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
+    className: "hidden sm:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
+      className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
+      children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+        className: "rounded-xl py-2 px-4 font-bold text-white",
+        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+          href: "/what-is-pylar",
+          children: "Acerca de mi"
+        })
+      })
+    })
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Button
+  Button,
+  Menu
 });

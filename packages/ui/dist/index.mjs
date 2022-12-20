@@ -18,6 +18,25 @@ var Button = () => {
     })
   });
 };
+
+// src/Menu.tsx
+import { jsx as jsx2 } from "react/jsx-runtime";
+var Menu = () => {
+  return /* @__PURE__ */ jsx2("div", {
+    className: "hidden sm:block",
+    children: /* @__PURE__ */ jsx2("div", {
+      className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
+      children: /* @__PURE__ */ jsx2("button", {
+        className: "rounded-xl py-2 px-4 font-bold text-white",
+        children: /* @__PURE__ */ jsx2("a", {
+          href: "/what-is-pylar",
+          children: "Acerca de mi"
+        })
+      })
+    })
+  });
+};
 export {
-  Button
+  Button,
+  Menu
 };

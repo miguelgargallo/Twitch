@@ -1,3 +1,5 @@
 declare const Button: () => JSX.Element;
 
-export { Button };
+declare const Menu: () => JSX.Element;
+
+export { Button, Menu };
