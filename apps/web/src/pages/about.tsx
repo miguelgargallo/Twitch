@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Menu } from "ui";
+import { Footer } from "ui";
 
 export default function Home() {
   return (
@@ -14,10 +15,10 @@ export default function Home() {
         >
           <Menu />
           <div className="flex flex-auto m-2">
-            <p className="px-1 m-1 box-decoration-slice bg-gradient-to-r from-blue-500 to-blue-500 text-white">
+            <p className="px-1 m-1 rounded-tl-lg rounded-bl-lg box-decoration-slice bg-gradient-to-r from-blue-500 to-blue-500 text-white">
               Home
             </p>
-            <p className="px-1 m-1 box-decoration-slice bg-gradient-to-r from-green-500 to-green-500 text-white">
+            <p className="px-1 m-1 rounded-tr-lg rounded-br-lg box-decoration-slice bg-gradient-to-r from-green-500 to-green-500 text-white">
               About me
             </p>
           </div>
@@ -70,7 +71,19 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div
+          className="m-2 py-8 px-8"
+        >
+          <button
+            className="pylarButtonEmailStyle"
+          >
+            <a href="mailto:it@pylar.org" target={"_blank"} rel="noreferrer">
+              Mail now
+            </a>
+          </button>
+        </div>
       </main>
+      <Footer />
     </div>
   );
 }
