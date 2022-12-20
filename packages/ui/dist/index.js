@@ -51,15 +51,49 @@ var import_jsx_runtime2 = require("react/jsx-runtime");
 var Menu = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
     className: "hidden sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
-      className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
-      children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
-        className: "rounded-xl py-2 px-4 font-bold text-white",
-        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-          href: "/what-is-pylar",
-          children: "Acerca de mi"
+    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+      className: "flex flex-row items-center justify-between bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "/",
+            children: "M"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "/about",
+            children: "Acerca de mi"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "/proyectos",
+            children: "Proyectos"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "https://twitter.com/miguelgargallo",
+            target: "_blank",
+            rel: "noreferrer",
+            children: "Twitter"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "https://github.com/miguelgargallo",
+            target: "_blank",
+            rel: "noreferrer",
+            children: "Github"
+          })
         })
-      })
+      ]
     })
   });
 };
