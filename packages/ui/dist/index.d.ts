@@ -6,6 +6,8 @@ declare const Navbar: () => JSX.Element;
 
 declare const Supermenu: () => JSX.Element;
 
+declare const Breadcrumb: () => JSX.Element;
+
 declare const TitlePylar: () => JSX.Element;
 
 declare const ListPylar: () => JSX.Element;
@@ -34,4 +36,4 @@ declare const PencilLogo: () => JSX.Element;
 
 declare const Carta: () => JSX.Element;
 
-export { Button, Carta, Contact, Footer, Letter, ListPylar, Menu, Navbar, PencilLogo, PylarLogo, Salestext, Scrollable, SuperdataLogo, Supermenu, TitlePylar, Version, blog, post12032022 };
+export { Breadcrumb, Button, Carta, Contact, Footer, Letter, ListPylar, Menu, Navbar, PencilLogo, PylarLogo, Salestext, Scrollable, SuperdataLogo, Supermenu, TitlePylar, Version, blog, post12032022 };

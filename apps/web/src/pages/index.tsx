@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center py-2">
       <Head>
-        <title>Twitch - Mi pagina web</title>
+        <title>Miguel Gargallo - Desarrollo web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="p-2">
@@ -14,10 +14,10 @@ export default function Home() {
         >
           <Menu />
           <div className="flex flex-auto m-2">
-            <p className="px-1 box-decoration-slice bg-gradient-to-r from-blue-500 to-blue-500 text-white">
-              Mi pagina web
+            <p className="px-1 m-1 box-decoration-slice bg-gradient-to-r from-blue-500 to-blue-500 text-white">
+                Home
             </p>
-          </div>
+        </div>
         </div>
         <div className="m-2 py-8 px-8">
           <h2 className="text-white text-xl">

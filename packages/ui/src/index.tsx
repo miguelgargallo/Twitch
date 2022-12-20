@@ -5,6 +5,7 @@ export * from "./Button";
 export * from "./Menu";
 export * from "./Navbar";
 export * from "./Supermenu";
+export * from "./Breadcrumb";
 // Title and subtitle
 export * from "./TitlePylar";
 // List
