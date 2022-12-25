@@ -1,7 +1,7 @@
 #  EP1 | Pencil TV 🔴 Desarrollar es Fácil y divertido!! React!! Javascript!! Vercel!! y Turbo!! 
 - Visita la web: https://twitch-web.vercel.app/
 - Lee el código: https://github.com/miguelgargallo/Twitch
-- Usa el Framework Usado:
+- Usa el Framework:
 ```
 git clone https://github.com/miguelgargallo/Twitch
 ```
