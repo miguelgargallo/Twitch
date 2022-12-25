@@ -3,7 +3,7 @@
 - Lee el código: https://github.com/miguelgargallo/Twitch
 - Usa el Framework:
 ```
-git clone https://github.com/miguelgargallo/Twitch
+git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
 ```
 
 You can use this as a template for your projects, just use the template or fork! and delete this file and mantain "License.md"
