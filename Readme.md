@@ -1,4 +1,4 @@
-# EP 5 | Pencil TV 🔴 Mi setup de VS Code, Python, Rust, Javascript, Typescript para React, Next y Deno
+#  EP1 | Pencil TV 🔴 Desarrollar es Fácil y divertido!! React!! Javascript!! Vercel!! y Turbo!! 
 - Código: https://github.com/miguelgargallo/vscode-setup
 - Visita la web: https://menu-turbo.vercel.app/
 - Lee el código: https://github.com/miguelgargallo/vscode-setup
