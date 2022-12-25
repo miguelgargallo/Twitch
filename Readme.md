@@ -4,7 +4,7 @@
 - Lee el código: https://github.com/miguelgargallo/vscode-setup
 - Usa el Framework Usado:
 ```
-git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
+git clone https://github.com/miguelgargallo/Twitch
 ```
 
 You can use this as a template for your projects, just use the template or fork! and delete this file and mantain "License.md"
