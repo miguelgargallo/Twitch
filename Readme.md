@@ -1,3 +1,12 @@
+# EP 5 | Pencil TV 🔴 Mi setup de VS Code, Python, Rust, Javascript, Typescript para React, Next y Deno
+- Código: https://github.com/miguelgargallo/vscode-setup
+- Visita la web: https://menu-turbo.vercel.app/
+- Lee el código: https://github.com/miguelgargallo/vscode-setup
+- Usa el Framework Usado:
+```
+git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
+```
+
 You can use this as a template for your projects, just use the template or fork! and delete this file and mantain "License.md"
 
 - - - - -
